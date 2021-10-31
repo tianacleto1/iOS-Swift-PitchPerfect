@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A965A29270DE5E100D631ED /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A965A28270DE5E100D631ED /* PlaySoundsViewController.swift */; };
+		9A965A2B270E28A400D631ED /* PlaySoundsViewControllerAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A965A2A270E28A400D631ED /* PlaySoundsViewControllerAudio.swift */; };
 		9AE43B2326FCC44D00A4CD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE43B2226FCC44D00A4CD19 /* AppDelegate.swift */; };
 		9AE43B2526FCC44D00A4CD19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE43B2426FCC44D00A4CD19 /* SceneDelegate.swift */; };
 		9AE43B2726FCC44D00A4CD19 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE43B2626FCC44D00A4CD19 /* RecordSoundsViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9A965A28270DE5E100D631ED /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		9A965A2A270E28A400D631ED /* PlaySoundsViewControllerAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewControllerAudio.swift; sourceTree = "<group>"; };
 		9AE43B1F26FCC44D00A4CD19 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE43B2226FCC44D00A4CD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE43B2426FCC44D00A4CD19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				9AE43B2D26FCC44F00A4CD19 /* LaunchScreen.storyboard */,
 				9AE43B3026FCC44F00A4CD19 /* Info.plist */,
 				9A965A28270DE5E100D631ED /* PlaySoundsViewController.swift */,
+				9A965A2A270E28A400D631ED /* PlaySoundsViewControllerAudio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				9AE43B2326FCC44D00A4CD19 /* AppDelegate.swift in Sources */,
 				9A965A29270DE5E100D631ED /* PlaySoundsViewController.swift in Sources */,
 				9AE43B2526FCC44D00A4CD19 /* SceneDelegate.swift in Sources */,
+				9A965A2B270E28A400D631ED /* PlaySoundsViewControllerAudio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 275S8X6Z5Y;
@@ -338,6 +343,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anacleto.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,7 +360,7 @@
 				9AE43B3226FCC44F00A4CD19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9AE43B3326FCC44F00A4CD19 /* Build configuration list for PBXNativeTarget "PitchPerfect" */ = {
 			isa = XCConfigurationList;
@@ -363,7 +369,7 @@
 				9AE43B3526FCC44F00A4CD19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
